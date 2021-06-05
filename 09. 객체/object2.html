@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var grades = {
+                'list' : {'egoing' : 10, 'k8805' : 8, 'sorialgi' : 80}, 
+                'show' : function() {
+                    //alert('Hello world');
+                    //console.log(this.list);
+                
+                    for (var name in this.list) {
+                        console.log(name, this.list[name]);
+                    }
+                }
+            }
+
+            //grades['show']();
+            grades.show();
+            
+
+            // 객체에 함수가 저장될 수 있음.
+            // 자바스크립트에서 함수도 일종의 값으로 취급. 따라서 변수에 저장될 수 있음.
+        </script>
+    </body>
+</html>
