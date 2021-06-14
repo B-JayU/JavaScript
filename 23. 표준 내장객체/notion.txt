@@ -1,0 +1,20 @@
+표준 내장 객체(Standard Built-in Object) : 자바스크립트가 기본적으로 가지고 있는 객체
+	Object;
+	Function;
+	Array;
+	String;
+	Boolean;
+	Number;
+	Math;
+	Date; (날짜)
+	RegExp; (정규표현식)
+
+사용자 정의 객체
+
+function user_defined() {}
+
+user_defined.prototype = new String();
+user_defined.prototype.(변수);
+user_defined.prototype.(메소드) = functin() {
+
+};
